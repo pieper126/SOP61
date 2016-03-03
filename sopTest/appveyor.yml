@@ -8,7 +8,7 @@ build:
   include_nuget_references: true
   verbosity: minimal
 artifacts:
-- path: 'SOP-*.zip'
+  path: 'SOP-*.zip'
   name: release_binary
-- path: '*.nupkg'
+  path: '*.nupkg'
   name: nuget_package
