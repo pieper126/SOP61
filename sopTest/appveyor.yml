@@ -1,0 +1,9 @@
+version: 1.0.{build}
+configuration: Debug
+platform: Any CPU
+clone_folder: c:\projects\sopTest
+build:
+  publish_nuget: true
+  publish_nuget_symbols: true
+  include_nuget_references: true
+  verbosity: minimal
