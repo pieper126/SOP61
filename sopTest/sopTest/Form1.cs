@@ -34,7 +34,7 @@ namespace sopTest
 
         public String Greeting(String name)
         {
-            return "Hello " + nae;
+            return "Hello " + name;
         }
     }
 }
